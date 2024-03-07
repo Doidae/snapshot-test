@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders GitHubCard component correctly 1`] = `
+<div
+  class="card"
+  style="width: 18rem;"
+>
+  <img
+    class="card-img-top"
+    src="path_to_your_image"
+  />
+  <div
+    class="card-body"
+  >
+    <div
+      class="card-title h5"
+    >
+      YourUsername
+    </div>
+    <p
+      class="card-text"
+    >
+      Your blurb goes here
+    </p>
+  </div>
+</div>
+`;
+
+exports[`renders a snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <p>
+      Edit 
+      <code>
+        src/App.js
+      </code>
+       and save to reload.
+    </p>
+    <a
+      className="App-link"
+      href="https://reactjs.org"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Learn React
+    </a>
+  </header>
+</div>
+`;

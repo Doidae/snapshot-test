@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import App from './App';
 import renderer from 'react-test-renderer'
 import '@testing-library/jest-dom/extend-expect';
-import GitHubCard from './GitHubCard';
+import GitHubCard from './component/GitHubCard';
 
 test('renders a snapshot', () => {
   const tree = renderer.create(<App/>).toJSON()
